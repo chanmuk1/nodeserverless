@@ -1,4 +1,4 @@
-FROM node:18-alpine
+FROM icr.io/codeengine/node:12-alpine
 WORKDIR /usr/src/app
 COPY package*.json ./
 RUN npm install
